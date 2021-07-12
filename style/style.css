@@ -69,11 +69,12 @@ ul {
 ul a {
   color: #fff;
 }
-/* ul li,
-img {
+ul li a {
   margin-left: 10px;
-} */
-
+}
+.profile-icon {
+  margin-left: 10px;
+}
 /* Top player */
 .top-players {
   margin-bottom: 30px;
@@ -200,6 +201,7 @@ img {
   .courses {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 10px;
   }
 }
 
@@ -214,5 +216,6 @@ img {
   .courses {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10px;
   }
 }
